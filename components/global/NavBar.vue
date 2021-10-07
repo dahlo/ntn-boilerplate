@@ -4,7 +4,7 @@
 
       <!-- Header logo -->
       <div>
-        <Tailwind />
+        <Logo />
       </div>
 
       <!-- Mobile toggle -->
