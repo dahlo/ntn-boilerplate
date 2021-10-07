@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full p-6 bg-transparent">
+  <nav class="fixed w-full top-0 p-6 bg-transparent">
     <div class="flex items-center justify-between">
 
       <!-- Header logo -->
