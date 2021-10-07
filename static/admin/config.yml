@@ -3,7 +3,8 @@ logo_url: https://agitated-hoover-771311.netlify.app/icon.png
 
 publish_mode: editorial_workflow
 backend:
-  name: git-gateway
+  name: github
+  repo: dahlo/ntn-boilerplate
   branch: master
   squash_merges: true
 
