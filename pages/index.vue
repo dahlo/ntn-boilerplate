@@ -6,3 +6,7 @@
     </section>
   </main>
 </template>
+
+export default {
+  layout: 'index',
+}
