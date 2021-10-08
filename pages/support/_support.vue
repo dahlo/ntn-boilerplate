@@ -33,7 +33,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("support", params.project).fetch();
+      post = await $content("support", params.support).fetch();
     } catch (e) {
       error({ message: "Page not found" });
     }
