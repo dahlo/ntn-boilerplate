@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-  <div class="container mx-auto">
+  <div class="md:container md:mx-auto">
     <NavBar />
     <nuxt />
 
