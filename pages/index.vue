@@ -8,9 +8,10 @@
 export default {
   layout: 'index',
   async asyncData ({ $content }) {
-    const page = await $content('index').fetch()
+    let page;
+    page = await $content('index').fetch()
     return {
-      { page }
+      page
     }
   }
 }
